@@ -1,0 +1,7 @@
+Bugs found
+
+- isEmpty() will always return true whether or not the list is actually empty
+
+- addBack() technically works as an addFront
+
+- removeBack() and removeFront() do not remove any nodes and will always return false
